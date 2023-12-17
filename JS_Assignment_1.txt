@@ -1,0 +1,99 @@
+js day_1
+
+Ques 1) Explain datatypes in javascript.
+ans.. 
+1. Primitive Data Types:
+
+Number:
+Represents numeric values, including integers and floating-point numbers.
+Example: let age = 25;
+
+String:
+Set of Characters or data enclosed in single or double quotes.
+Example: let name = "John";
+
+Boolean:
+Represents logical values of true or false.
+Used for conditional statements and logical operations.
+Example: let a= true;
+
+Undefined:
+Represents a variable that has been declared but not assigned a value.
+Example: let x; // undefined
+
+Null:
+Represents the intentional absence of any object value.
+Often used to explicitly indicate that a variable or object has no value.
+Example: let person = null;
+
+2. Primitive Data Types: these are refrence type.
+
+Object:-
+  - Represent a collection of key-value pair.
+ - key and value can be of any data type.
+
+example- 
+let person={ name:"nikita", lastname:"patil"};
+
+Array:- 
+    - It is a clooection of similar datatype.
+    - they are accessed by their index value.
+example:- 
+let num=[1,2,4,5,6,8];
+
+Function:- 
+   - It is a block of code that can be executes when called.
+   - functions have parameter and return type.
+example:- 
+function add(x,y)
+{
+return x+y;
+}
+
+Ques 2) Javascript engines:
+ans...JavaScript engines are essential in web browsers and other environments where JavaScript code is executed.
+- Engines are used to make compatible platform for js language.
+- So all the browsers are having their own JS engines to run JS code.
+
+- V8 (Chrome, Node.js)
+- SpiderMonkey (Firefox)
+- Chakra (Microsoft Edge)
+
+Ques 3) explain ECMA in js.
+ans...
+- ECMA stands for European Computer Manufacturing Association.
+- It is an organization that sets standerds for scripting languages.
+- ECMAScript standard version of js that follows the standard set by ECMA.
+
+Ques 4)  Why we use javascript?
+ans..
+- Js is an interpreted languages.
+- Js is open source and crosee platform compatible.  
+- Js is platform independent.
+- It can be used for front end and back end also.
+- You can build web applications , mobile applivations through js.
+- Js is dynamic in nature.
+
+Ques 5) Explain History of Javascript.
+ans..
+- Developed by Brendan Eich at Netscape in 1995.
+- Originally named LiveScript, later renamed JavaScript.
+- ECMAScript was created to standardize JavaScript in 1997.
+- Continuous updates and enhancements to the language (ES6(2015), ES7, etc.) improving functionalities.
+
+Ques 6) DOM in javascript?
+ans..
+- It stands for Document Object Model
+- It allows JavaScript to interact with the elements on a web page.
+- JavaScript can change, update, or manipulate the content, structure, and style of a webpage dynamically thorugh DOM.
+- The DOM helps in handling events like Click,double click, etc..
+
+
+
+
+
+
+
+
+
+
